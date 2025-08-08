@@ -43,7 +43,7 @@ function SiteInfo({ title }) {
           <a
             href='https://dh.qqsea.top'
             className='underline'>
-            关于 {siteConfig('VERSION')}
+            版本： {siteConfig('VERSION')}
           </a>
         </span>
         <br />
