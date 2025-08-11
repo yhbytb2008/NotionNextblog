@@ -49,6 +49,13 @@ module.exports = {
       url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
       cover:
         'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+    {
+      name: '晚来的风',
+      artist: 'Falcom Sound Team jdk',
+      url: 'https://m701.music.126.net/20250811110700/7b5c38e01c85c9c60bb21cc658dfa3b4/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/61348835839/91d9/b3fc/7ccc/115bc4576d9f3dbc52f61ab369daeeb0.mp3?vuutv=wzWPCI1qYustJYyJL+YABKTjA7CmRC6REZftcIltTvSX7LlsdxgJVOF7l6XBP9oXBj+RICq82zx5T/M7hjZV7gITSm2pRXhcfWUcuFmnnoA=',
+      cover:
+        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
