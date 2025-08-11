@@ -37,25 +37,32 @@ module.exports = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: '谢谢你的爱',
+      artist: '刘德华',
+      url: 'https://m801.music.126.net/20250811152128/6c40a9305a69d9792ad88f8cf6b50d30/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/11614242186/1d78/f1b7/1305/b513a8a3b131ce30731b156d27c17231.mp3',
       cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://p2.music.126.net/SE24JBKPYfot_sVojjSU5A==/109951171008653253.jpg?param=130y130'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '17岁 (Live)',
+      artist: '刘德华',
+      url: 'https://m701.music.126.net/20250811152309/e9cda8a557bfa5bfbcb2f8a6df891048/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/34235529883/3d7f/4686/6e05/fcfe45928668553bf71f873cab2770ec.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://p2.music.126.net/SE24JBKPYfot_sVojjSU5A==/109951171008653253.jpg?param=130y130'
     },
     {
-      name: '晚来的风',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://m701.music.126.net/20250811110700/7b5c38e01c85c9c60bb21cc658dfa3b4/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/61348835839/91d9/b3fc/7ccc/115bc4576d9f3dbc52f61ab369daeeb0.mp3?vuutv=wzWPCI1qYustJYyJL+YABKTjA7CmRC6REZftcIltTvSX7LlsdxgJVOF7l6XBP9oXBj+RICq82zx5T/M7hjZV7gITSm2pRXhcfWUcuFmnnoA=',
+      name: '谁能明白我',
+      artist: '林子祥',
+      url: 'https://m701.music.126.net/20250811151606/44011ab64cd28487c8e3bb96f0250348/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32853862535/e15b/e9e7/23d4/dab30633fd951402c2b3d3e50178d008.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://tse1.mm.bing.net/th/id/OIP.MWHdf5K1EjnHXk8lf3m8sAHaLH?r=0&cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3'
+    },
+    {
+      name: '最后的莫西干人+谁能明白我',
+      artist: '旁白',
+      url: 'https://m801.music.126.net/20250811152922/8dcfc6a482d82f428984b969d5fa7bed/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14018409192/d755/3102/577b/9d8705d58b3c2181f6e7e097843853bf.mp3',
+      cover:
+        'http://p1.music.126.net/yt29O0deOR62qfVebj0Zmg==/109951167313649334.jpg?param=130y130'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
