@@ -49,20 +49,6 @@ module.exports = {
       url: 'https://m701.music.126.net/20250811152309/e9cda8a557bfa5bfbcb2f8a6df891048/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/34235529883/3d7f/4686/6e05/fcfe45928668553bf71f873cab2770ec.mp3',
       cover:
         'https://p2.music.126.net/SE24JBKPYfot_sVojjSU5A==/109951171008653253.jpg?param=130y130'
-    },
-    {
-      name: '谁能明白我',
-      artist: '林子祥',
-      url: 'https://m701.music.126.net/20250811151606/44011ab64cd28487c8e3bb96f0250348/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32853862535/e15b/e9e7/23d4/dab30633fd951402c2b3d3e50178d008.mp3',
-      cover:
-        'https://tse1.mm.bing.net/th/id/OIP.MWHdf5K1EjnHXk8lf3m8sAHaLH?r=0&cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3'
-    },
-    {
-      name: '最后的莫西干人+谁能明白我',
-      artist: '旁白',
-      url: 'https://m801.music.126.net/20250811152922/8dcfc6a482d82f428984b969d5fa7bed/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14018409192/d755/3102/577b/9d8705d58b3c2181f6e7e097843853bf.mp3',
-      cover:
-        'http://p1.music.126.net/yt29O0deOR62qfVebj0Zmg==/109951167313649334.jpg?param=130y130'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || true, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
