@@ -11,7 +11,7 @@ export default function PoweredBy(props) {
       <a
         href='https://bk.qqsea.top/'
         className='underline justify-start'>
-        NotionNext {siteConfig('VERSION')}
+        我的天空 {siteConfig('VERSION')}
       </a>
       .
     </div>
