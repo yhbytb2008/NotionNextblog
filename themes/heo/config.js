@@ -30,12 +30,10 @@ const CONFIG = {
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
   HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
   HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
-  HEO_HERO_CATEGORY_3: { title: '心法', url: '/tag/心法' },
-  HEO_HERO_CATEGORY_3: { title: '交易心得', url: '/tag/交易心得' },
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
+  HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
@@ -94,7 +92,7 @@ const CONFIG = {
       title_1: 'illustrator',
       img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
       color_1: '#f29e39',
-      title_2: 'CSS3',
+      title_2: 'CSS3'，
       img_2: '/images/heo/20237c548846044a20dad68a13c0f0e1502f074602.webp',
       color_2: '#2c51db'
     },
@@ -109,7 +107,7 @@ const CONFIG = {
     {
       title_1: 'Git',
       img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
-      color_1: '#df5b40',
+      color_1: '#df5b40'，
       title_2: 'Rhino',
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
       color_2: '#1f1f1f'
@@ -139,7 +137,7 @@ const CONFIG = {
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
   HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
-  HEO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
+  HEO_POST_LIST_COVER_DEFAULT: true， // 封面为空时用站点背景做默认封面
   HEO_POST_LIST_SUMMARY: true, // 文章摘要
   HEO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
