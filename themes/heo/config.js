@@ -18,14 +18,14 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享股票知识点',
-  HEO_HERO_TITLE_2: '学习与进步',
+  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '个人爱好者',
-  HEO_HERO_TITLE_5: '我的主页',
-  HEO_HERO_TITLE_LINK: 'https://bk.qqsea.top/',
+  HEO_HERO_TITLE_4: '新版上线',
+  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '随便看看，学习',
+  HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -51,14 +51,21 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://bk.qqsea.top/',
+  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://bk.qqsea.top/',
+  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
+      title_1: 'AfterEffect',
+      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
+      color_1: '#989bf8',
+      title_2: 'Sketch',
+      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      color_2: '#ffffff'
+    },
     {
       title_1: 'Docker',
       img_1: '/images/heo/20231108a540b2862d26f8850172e4ea58ed075102.webp',
@@ -74,6 +81,14 @@ const CONFIG = {
       title_2: 'Python',
       img_2: '/images/heo/20235c0731cd4c0c95fc136a8db961fdf963071502.webp',
       color_2: '#ffffff'
+    },
+    {
+      title_1: 'Swift',
+      img_1: '/images/heo/202328bbee0b314297917b327df4a704db5c072402.webp',
+      color_1: '#eb6840',
+      title_2: 'Principle',
+      img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
+      color_2: '#8f55ba'
     },
     {
       title_1: 'illustrator',
@@ -101,7 +116,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
@@ -122,9 +137,9 @@ const CONFIG = {
   HEO_MENU_SEARCH: true, // 显示搜索
 
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
-  HEO_POST_LIST_COVER_HOVER_ENLARGE: true, // 列表鼠标悬停放大
+  HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
-  HEO_POST_LIST_COVER_DEFAULT: true， // 封面为空时用站点背景做默认封面
+  HEO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   HEO_POST_LIST_SUMMARY: true, // 文章摘要
   HEO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
