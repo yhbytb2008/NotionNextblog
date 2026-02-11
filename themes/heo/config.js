@@ -89,7 +89,7 @@ const CONFIG = {
       title_2: 'Principle',
       img_2: '/images/heo/2023f76570d2770c8e84801f7e107cd911b5073202.webp',
       color_2: '#8f55ba'
-    }，
+    },
     {
       title_1: 'illustrator',
       img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
